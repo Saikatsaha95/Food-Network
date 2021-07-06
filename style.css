@@ -54,7 +54,8 @@ p {
 .about-me-area {
   background-image: url(images/shapes/7.png);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
+  width: 100%;
   height: 80vh;
 }
 
