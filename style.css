@@ -26,6 +26,10 @@ h1 {
   line-height: 40px;
 }
 
+h2 {
+  font-size: 50px;
+}
+
 p {
   font-size: 25px;
   margin-bottom: 7%;
@@ -34,17 +38,39 @@ p {
 
 .top-banner {
   margin-top: 5%;
+  margin-bottom: 150px;
+}
+
+.about-me-area {
+  background-image: url(images/shapes/7.png);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .order-food-area {
   margin-top: 10%;
 }
 
+.contact-me-area {
+  margin-top: 10%;
+}
+
+.contact-me-area p {
+  margin-bottom: 15%;
+  padding-right: 15%;
+}
+
 .link-button {
   text-decoration: none;
   background-image: linear-gradient(to right, #f5af19, #f12711);
   color: white;
-  padding: 20px 60px;
+  padding: 25px 60px;
   border-radius: 30px;
   font-size: 20px;
+}
+
+.img-adjust {
+  height: 48.76%;
+  object-fit: contain;
+  margin-top: 15%;
 }
