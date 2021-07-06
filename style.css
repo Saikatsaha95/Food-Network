@@ -1,10 +1,16 @@
 body {
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 .flexible-container {
   display: flex;
+}
+
+.sec-bottom-margin {
+  margin-bottom: 150px;
 }
 
 .half-width {
@@ -30,21 +36,26 @@ h2 {
   font-size: 50px;
 }
 
+h3 {
+  font-size: 30px;
+  font-weight: 900;
+}
+
 p {
-  font-size: 25px;
+  font-size: 20px;
   margin-bottom: 7%;
   color: gray;
 }
 
 .top-banner {
   margin-top: 5%;
-  margin-bottom: 150px;
 }
 
 .about-me-area {
   background-image: url(images/shapes/7.png);
   background-repeat: no-repeat;
   background-size: contain;
+  height: 80vh;
 }
 
 .order-food-area {
@@ -70,7 +81,43 @@ p {
 }
 
 .img-adjust {
-  height: 48.76%;
+  height: 83.78%;
   object-fit: contain;
   margin-top: 15%;
+}
+
+.my-recipie {
+  text-align: center;
+}
+
+.my-recipie p {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.recipie-cards {
+  width: 25%;
+  margin-left: 5%;
+  padding: 1%;
+  box-shadow: 10px 10px 30px black;
+  border-radius: 15px;
+}
+
+.card-image {
+  height: 350px;
+  background-size: cover;
+  border-radius: 15px;
+  margin-bottom: 50px;
+}
+
+.card-img-1 {
+  background-image: url(images/food/Project\ Cover-1.jpg);
+}
+
+.card-img-2 {
+  background-image: url(images/food/Project\ Cover-2.png);
+}
+
+.card-img-3 {
+  background-image: url(images/food/Project\ Cover-3.jpg);
 }
