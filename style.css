@@ -144,3 +144,19 @@ p {
   display: inline-block;
   padding-bottom: 15%;
 }
+
+footer {
+  background-color: rgb(3, 3, 32);
+  text-align: center;
+  height: 200px;
+}
+
+footer h3 {
+  color: gray;
+  padding-top: 1%;
+}
+
+footer small {
+  color: white;
+  margin-bottom: 10px;
+}
